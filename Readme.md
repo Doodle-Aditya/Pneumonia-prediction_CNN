@@ -7,7 +7,7 @@ A local **Streamlit** dashboard that uses a trained **TensorFlow/Keras CNN** to 
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Prototype-orange)
 
-![Dashboard overview](docs/images/dashboard-full.png)
+![Dashboard overview](images/dashboard-full.png)
 
 > ⚠️ **Medical disclaimer:** This is an educational machine-learning project, **not** a clinically validated diagnostic tool. Do not use its predictions to diagnose, rule out disease, or make treatment decisions. The displayed scores are raw model output probabilities, not guaranteed clinical probabilities.
 
@@ -45,13 +45,13 @@ A local **Streamlit** dashboard that uses a trained **TensorFlow/Keras CNN** to 
 
 Upload an X-ray, check the preview, then click **Analyze X-ray**.
 
-![Upload and preview](docs/images/upload-and-preview.png)
+![Upload and preview](images/upload-and-preview.png)
 
 ### Prediction results
 
 The result cards show the predicted class, the model confidence and the number of classes. Below them are the probability chart, an expandable table of exact scores and a reminder about how to read the numbers.
 
-![Prediction results](docs/images/prediction-results.png)
+![Prediction results](images/prediction-results.png)
 
 ---
 
